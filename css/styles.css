@@ -1,0 +1,162 @@
+body{ /* targets the entire body of our website */ 
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Nav Bar Styles */
+.nav-bar{
+    background-color: #C92C21;
+    color: #fff;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.nav-list{
+    list-style-type: none;
+    float: right;
+}
+.nav-item{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+a{ /* targets ALL a tags in our website */
+    color: #fff;
+    text-decoration: none;
+}
+.nav-item a:hover{ /* applies hover effects to anchor tag inside of "nav-item" class */
+    color: #F1D07B;
+    cursor: pointer;
+}
+/* End of Nav Bar Styles*/
+
+/* Banner Styles */
+.banner{
+    width: 100%;
+    height: 500px;
+    margin-top: 75px;
+    background-image: url('../img/pizza-banner.jpg');
+    /*background-repeat: no-repeat;*/
+}
+.banner-text{
+    background-color: #C92C21;
+    width: 350px;
+    height: 75px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 200px;
+}
+.banner-text p{ /* this targets all p tags inside of any element with a class of "banner-text" */
+    color: #fff;
+    font-size: 32px;
+    font-family: cursive;
+    margin: 10px 0px 0px 0px;
+}
+/* End of Banner Styles */
+
+/* Main Section Styles */
+.body{
+    width: 100%;
+}
+.col{
+    width: 50%;
+    display: inline-block;
+    height: 100%;
+}
+.one{
+    float: left;
+    text-align: center;
+}
+.one img{ /* this targets all img tags inside of any element with a class of "one" */
+    width: 600px;
+    height: auto;
+    margin-top: 40px;
+}
+.two p{ /* this targets all p tags inside of any element with a class of "two" */
+    margin: 20px;
+}
+
+.light{
+   font-weight: 300; 
+}
+.bold{
+    font-weight: 700;
+}
+/* End of Main Section Styles */
+
+/* Footer Styles */
+.footer{
+    width: 100%;
+    height: 125px;
+    background-color: #C92C21;
+}
+.footer-col{
+    /*border: 1px dashed blue;*/
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-btn {
+    background-color: #fff;
+    color: #C92C21;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-left: 40%;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+}
+.footer-btn:hover{
+    background-color: #F1D07B;
+}
+.icons-wrap{
+    margin-top: 50px;
+    margin-left: 130px;
+}
+.icon{
+    color: #fff;
+    margin-right: 15px;
+}
+.icon:hover{
+    color: #F1D07B;
+}
+.copyright{
+    color: #fff;
+    margin-top: 55px;
+    margin-left: 100px;
+}
+
+/* End of Footer Styles */
+
+/* About Page Styles */
+.main-body{
+    margin-top: 75px;
+}
+.about-col{
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 10px 5px 10px 5px;
+}
+.gif{
+    width: 300px;
+    
+}
+/* End of About Page Styles*/
+
+/* Contact Page Styles */
+.contact-col{
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 5px 10px 5px;
+}
+.form{
+    background-color: #F1D07B;
+}
+/* End of Contact Page Styles */
